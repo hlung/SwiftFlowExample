@@ -494,8 +494,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hlung/SwiftFlow.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				branch = "feature/avoid-collision";
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

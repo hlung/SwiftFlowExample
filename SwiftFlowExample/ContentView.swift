@@ -20,7 +20,7 @@ struct ContentView: View {
       Arrow(.down),
       Node("Work\nsuccess?", shape: .diamond, id: "success"), // declare id for later reference
       Arrow(.down, title: "Yes"),
-      Node("Go Party!", shape: .rect, id: "party"),
+      Node("Go Party! Go Party! Go Party! ", shape: .rect, id: "party"),
       Arrow(.down),
       Node("End", shape: .pill, id: "end")
     ])
@@ -30,7 +30,7 @@ struct ContentView: View {
       Arrow(.right, title: "No"), // branch out to the right side
       Node("Cry", shape: .rect, config: redConfig), // different color using config
       Arrow(.down),
-      Node("Go home", shape: .rect, id: "home"),
+      Node("Go home\nGo home ", shape: .rect, id: "home"),
       ArrowLoopBack(from: .bottom, to: .right),
       NodeShortcut(id: "end")
     ])
