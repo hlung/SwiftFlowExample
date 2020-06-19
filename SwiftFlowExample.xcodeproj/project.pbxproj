@@ -16,6 +16,7 @@
 		012F1DBC245ECC9A00ACAFF0 /* SwiftFlowExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012F1DBB245ECC9A00ACAFF0 /* SwiftFlowExampleTests.swift */; };
 		012F1DC9245ECEAA00ACAFF0 /* SwiftFlow in Frameworks */ = {isa = PBXBuildFile; productRef = 012F1DC8245ECEAA00ACAFF0 /* SwiftFlow */; };
 		014748802464339300202FFF /* SwiftFlow in Frameworks */ = {isa = PBXBuildFile; productRef = 0147487F2464339300202FFF /* SwiftFlow */; };
+		016F937B249CD1B9005372F0 /* UIViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F937A249CD1B9005372F0 /* UIViewWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		012F1DB7245ECC9A00ACAFF0 /* SwiftFlowExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFlowExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		012F1DBB245ECC9A00ACAFF0 /* SwiftFlowExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFlowExampleTests.swift; sourceTree = "<group>"; };
 		012F1DBD245ECC9A00ACAFF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		016F937A249CD1B9005372F0 /* UIViewWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				012F1DA4245ECC9600ACAFF0 /* AppDelegate.swift */,
 				012F1DA6245ECC9600ACAFF0 /* SceneDelegate.swift */,
 				012F1DA8245ECC9600ACAFF0 /* ContentView.swift */,
+				016F937A249CD1B9005372F0 /* UIViewWrapper.swift */,
 				012F1DAA245ECC9900ACAFF0 /* Assets.xcassets */,
 				012F1DAF245ECC9900ACAFF0 /* LaunchScreen.storyboard */,
 				012F1DB2245ECC9900ACAFF0 /* Info.plist */,
@@ -227,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016F937B249CD1B9005372F0 /* UIViewWrapper.swift in Sources */,
 				012F1DA5245ECC9600ACAFF0 /* AppDelegate.swift in Sources */,
 				012F1DA7245ECC9600ACAFF0 /* SceneDelegate.swift in Sources */,
 				012F1DA9245ECC9600ACAFF0 /* ContentView.swift in Sources */,
